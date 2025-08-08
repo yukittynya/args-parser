@@ -1,6 +1,3 @@
-#define USING_ARENA
-#define USING_ARGS
-
 #include "../lib/arena.h"
 #include "../lib/args.h"
 
