@@ -13,12 +13,9 @@ A lightweight, arena based command line argument parser for C. This is part of m
 
 ### Basic Setup
 
-First, include the headers and defing **USING_ARENA** and **USING_ARGS**
+First, include the headers: **arena.h** and **args.h** 
 
 ```
-#define USING_ARENA
-#define USING_ARGS
-
 #include "arena.h"
 #include "args.h"
 ```
@@ -34,9 +31,6 @@ static const ValidFlag valid_flags[] = {
 
 Then parse your arguments in your program!  
 ```
-#define USING_ARENA
-#define USING_ARGS
-
 #include "arena.h"
 #include "args.h"
 
