@@ -34,6 +34,9 @@ static const ValidFlag valid_flags[] = {
 
 Then parse your arguments in your program!  
 ```
+#define USING_ARENA
+#define USING_ARGS
+
 #include "arena.h"
 #include "args.h"
 
